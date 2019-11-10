@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.searchBarContainer{
+  padding: 2px;
+}
+.searchBar{
+    width: 50%; /* force to expand to container's width */ 
+    border: 3px solid #DFDFDF;  
+    padding: 10px;
+    /* margin: 0 -17px; negative margin = border-width + horizontal padding  */
+}
+
+.search-btn{
+  background-color: #fff;
+    border: 1px solid #dadce0;
+    color: #1a73e8;
+    border-radius: 4px;
+    font-family: Roboto,sans-serif;
+    font-size: 14px;
+    height: 36px;
+    cursor: pointer;
+    padding: 0 24px;
+}
+
+#placeList{
+  list-style-type: none;
+  width: 300px;
+  position: absolute;
+  left: 0;
+  top: 30px;
+  background-color: azure;
+  padding-left: 0px;
+}
+
+#placeList li{
+  padding: 10px;
+}
+
+.listItems:hover{
+  background-color: #1a73e8;
+}
